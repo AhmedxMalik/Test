@@ -69,7 +69,7 @@ def Activate():
     
         input(f' PRESS ENTER TO SEND KEY ADMIN')
         tks = (''+k)
-        os.system("xdg-open https://wa.me/+923239021979")
+        os.system("xdg-open https://wa.me/+923056673626")
 try:
     os.makedirs('/sdcard/MUGHAL')
 except:
